@@ -1,0 +1,56 @@
+{
+  "name": "rvnm",
+  "version": "1.4.0",
+  "description": "Responsive vertical navigation menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4xmen/rvnm.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "nav-menu",
+    "Responsive",
+    "vertical",
+    "navigation",
+    "menu",
+    "wordpress-menu"
+  ],
+  "author": "4xmen - A1Gard",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/4xmen/rvnm/issues"
+  },
+  "files": [
+    "dist/*",
+    "dist/img/*",
+    "src/*",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/4xmen/rvnm#readme",
+  "devDependenciesnpm": {
+    "grunt": "^1.0.4",
+    "grunt-concat-css": "^0.3.2",
+    "grunt-contrib-coffee": "^2.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "jquery": ">=1.10.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-concat-css": "^0.3.2",
+    "grunt-contrib-coffee": "^2.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

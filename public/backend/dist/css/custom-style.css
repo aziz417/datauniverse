@@ -1,0 +1,56 @@
+/*toaster message custom style*/
+.swal2-title{
+    margin-left: 5px!important;
+    color: green!important;
+}
+/*responsive design problem solve here*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 541px) {
+    .responsive_p_t_f_5{
+        padding:5px 15px!important;
+    }
+    .responsive_p_r_15{
+        padding-right:15px!important;
+    }
+    .responsive_p_l_15{
+        padding-left: 15px!important;
+    }
+
+    .table-action a, .table-action button {
+        padding: 0 4px;
+        font-size: 13px;
+    }
+}
+/*table data search and resat height*/
+.custom_field_height{
+    height: 31px!important;
+}
+.activeMenu{
+    background: #007bff;
+}
+.required-star{
+    color: #FA272E;
+}
+.swal2-icon-warning{
+    width: 365px!important;
+    height: 295px!important;
+}
+.custom-font-size{
+    font-size: 15px!important;
+}
+.custom-disable{
+    pointer-events: none;
+    opacity: 0.5;
+    background: #CCC;
+}
+
+.display_none{
+    display: none;
+}
+.display_none2{
+    display: none;
+}
+.image_preview_delete_icon{
+    font-size: 20px;
+}
+
+

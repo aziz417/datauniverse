@@ -1,0 +1,25 @@
+.bgc{
+    background-color: #f8f8ff;
+}
+.XVIpart{
+    background-color: #fffaf0;
+}
+.XIIpart{
+    background-color: #FF0000;
+}
+ul li {
+    list-style: none;
+    position: relative;
+}
+ul li::after {
+    content: " ";
+    height: 3px;
+    width: 0;
+    background: limegreen;
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+}
+ul li:hover::after {
+    width: 100%;
+}
